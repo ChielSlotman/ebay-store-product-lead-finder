@@ -17,6 +17,3 @@ Ecommerce, Market Research, Lead Generation, Price Monitoring, Web Scraping
 
 ## Tags
 eBay scraper, eBay product scraper, eBay seller scraper, eBay store leads, ecommerce research, product research, competitor tracking, price monitoring, sold count, seller ratings, Make, Zapier, n8n
-
-## Pricing
-Recommended launch pricing: pay per result at about $4.00 per 1,000 product or seller results, or an equivalent per-result event price.

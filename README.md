@@ -181,7 +181,3 @@ Yes. Add public eBay search or category URLs in `searchUrls`.
 ### Does it support price filters?
 
 Yes. You can provide `minPrice` and `maxPrice`; keyword searches also pass those filters to eBay search URLs.
-
-## Pricing
-
-This Actor is designed for simple pay-per-result pricing. A practical launch price is around $4.00 per 1,000 public product or seller records, with final pricing shown on the Apify Store page.
