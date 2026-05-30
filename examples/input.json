@@ -1,0 +1,21 @@
+{
+  "keywords": [
+    "vintage camera",
+    "wireless headphones"
+  ],
+  "searchUrls": [],
+  "maxResults": 50,
+  "includeSellerInfo": true,
+  "includeImages": true,
+  "includeShipping": true,
+  "includeSoldCount": true,
+  "minPrice": 20,
+  "maxPrice": 500,
+  "condition": "used",
+  "location": "",
+  "deduplicateResults": true,
+  "proxyConfiguration": {
+    "useApifyProxy": true
+  },
+  "debugMode": false
+}

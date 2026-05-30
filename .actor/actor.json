@@ -1,0 +1,20 @@
+{
+  "actorSpecification": 1,
+  "name": "ebay-store-product-lead-finder",
+  "title": "eBay Store and Product Lead Finder",
+  "version": "1.0",
+  "buildTag": "latest",
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 2048,
+  "defaultMemoryMbytes": 512,
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "meta": {
+    "templateId": "js-crawlee"
+  }
+}

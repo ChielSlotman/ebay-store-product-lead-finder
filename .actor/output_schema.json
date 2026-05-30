@@ -1,0 +1,49 @@
+{
+  "actorSpecification": 1,
+  "views": {
+    "overview": {
+      "title": "eBay product and seller leads",
+      "transformation": {
+        "fields": [
+          "productTitle",
+          "productUrl",
+          "price",
+          "currency",
+          "shippingPrice",
+          "condition",
+          "sellerName",
+          "sellerRating",
+          "sellerFeedbackPercent",
+          "storeName",
+          "soldCount",
+          "itemLocation",
+          "sourceKeyword",
+          "rankingPosition",
+          "scrapedAt"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "productTitle": {
+            "label": "Product"
+          },
+          "productUrl": {
+            "label": "Product URL",
+            "format": "link"
+          },
+          "price": {
+            "label": "Price"
+          },
+          "sellerName": {
+            "label": "Seller"
+          },
+          "sellerUrl": {
+            "label": "Seller URL",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

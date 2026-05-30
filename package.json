@@ -1,0 +1,36 @@
+{
+  "name": "ebay-store-product-lead-finder",
+  "version": "1.0.0",
+  "description": "Commercial Apify Actor for extracting public eBay product listings, seller/store data, prices, ratings, sold counts, images, and URLs for ecommerce research.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test tests/*.test.js",
+    "lint": "node scripts/validate-json.js && node --check src/main.js && node --check src/ebay.js"
+  },
+  "dependencies": {
+    "apify": "^3.7.2",
+    "cheerio": "^1.0.0",
+    "got-scraping": "^4.2.1"
+  },
+  "overrides": {
+    "file-type": "22.0.1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "apify",
+    "actor",
+    "ebay",
+    "ecommerce",
+    "product-research",
+    "seller-research",
+    "store-leads",
+    "price-monitoring",
+    "competitor-research",
+    "scraper"
+  ],
+  "author": "ChielSlotman",
+  "license": "MIT"
+}

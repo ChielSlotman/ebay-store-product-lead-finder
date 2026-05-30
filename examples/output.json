@@ -1,0 +1,24 @@
+[
+  {
+    "productTitle": "Vintage 35mm Film Camera with Lens",
+    "productUrl": "https://www.ebay.com/itm/123456789012",
+    "itemId": "123456789012",
+    "price": 89.99,
+    "currency": "USD",
+    "shippingPrice": 8.95,
+    "condition": "Used",
+    "imageUrl": "https://i.ebayimg.com/images/example.jpg",
+    "sellerName": "example-camera-store",
+    "sellerUrl": "https://www.ebay.com/usr/example-camera-store",
+    "sellerRating": 12450,
+    "sellerFeedbackPercent": 99.7,
+    "storeName": "Example Camera Store",
+    "storeUrl": "https://www.ebay.com/str/examplecamerastore",
+    "soldCount": 42,
+    "itemLocation": "United States",
+    "listingType": "Buy It Now",
+    "sourceKeyword": "vintage camera",
+    "rankingPosition": 1,
+    "scrapedAt": "2026-05-30T12:00:00.000Z"
+  }
+]

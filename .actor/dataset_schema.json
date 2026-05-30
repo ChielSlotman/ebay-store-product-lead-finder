@@ -1,0 +1,85 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "productTitle": {
+      "type": "string",
+      "title": "Product title"
+    },
+    "productUrl": {
+      "type": "string",
+      "title": "Product URL"
+    },
+    "itemId": {
+      "type": "string",
+      "title": "Item ID"
+    },
+    "price": {
+      "type": "number",
+      "title": "Price"
+    },
+    "currency": {
+      "type": "string",
+      "title": "Currency"
+    },
+    "shippingPrice": {
+      "type": "number",
+      "title": "Shipping price"
+    },
+    "condition": {
+      "type": "string",
+      "title": "Condition"
+    },
+    "imageUrl": {
+      "type": "string",
+      "title": "Image URL"
+    },
+    "sellerName": {
+      "type": "string",
+      "title": "Seller name"
+    },
+    "sellerUrl": {
+      "type": "string",
+      "title": "Seller URL"
+    },
+    "sellerRating": {
+      "type": "integer",
+      "title": "Seller rating"
+    },
+    "sellerFeedbackPercent": {
+      "type": "number",
+      "title": "Seller feedback percent"
+    },
+    "storeName": {
+      "type": "string",
+      "title": "Store name"
+    },
+    "storeUrl": {
+      "type": "string",
+      "title": "Store URL"
+    },
+    "soldCount": {
+      "type": "integer",
+      "title": "Sold count"
+    },
+    "itemLocation": {
+      "type": "string",
+      "title": "Item location"
+    },
+    "listingType": {
+      "type": "string",
+      "title": "Listing type"
+    },
+    "sourceKeyword": {
+      "type": "string",
+      "title": "Source keyword"
+    },
+    "rankingPosition": {
+      "type": "integer",
+      "title": "Ranking position"
+    },
+    "scrapedAt": {
+      "type": "string",
+      "title": "Scraped at"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "keywords": [
+    "vintage camera"
+  ],
+  "maxResults": 5,
+  "includeSellerInfo": true,
+  "includeImages": true,
+  "includeShipping": true,
+  "includeSoldCount": true,
+  "deduplicateResults": true,
+  "proxyConfiguration": null,
+  "debugMode": true
+}

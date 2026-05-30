@@ -1,0 +1,108 @@
+{
+  "title": "eBay Store and Product Lead Finder input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "keywords": {
+      "title": "Product keywords",
+      "type": "array",
+      "description": "eBay product search keywords.",
+      "editor": "stringList",
+      "prefill": [
+        "vintage camera",
+        "wireless headphones"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "searchUrls": {
+      "title": "eBay search or category URLs",
+      "type": "array",
+      "description": "Optional direct public eBay search/category URLs.",
+      "editor": "requestListSources",
+      "prefill": [],
+      "items": {
+        "type": "string"
+      }
+    },
+    "maxResults": {
+      "title": "Maximum results",
+      "type": "integer",
+      "description": "Maximum product results to return.",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 100,
+      "prefill": 50
+    },
+    "includeSellerInfo": {
+      "title": "Include seller info",
+      "type": "boolean",
+      "description": "Extract public seller/store data when visible.",
+      "default": true
+    },
+    "includeImages": {
+      "title": "Include images",
+      "type": "boolean",
+      "description": "Include product image URLs when visible.",
+      "default": true
+    },
+    "includeShipping": {
+      "title": "Include shipping",
+      "type": "boolean",
+      "description": "Include visible shipping price/details.",
+      "default": true
+    },
+    "includeSoldCount": {
+      "title": "Include sold count",
+      "type": "boolean",
+      "description": "Include sold count when publicly visible.",
+      "default": true
+    },
+    "minPrice": {
+      "title": "Minimum price",
+      "type": "number",
+      "description": "Optional minimum price filter.",
+      "editor": "number"
+    },
+    "maxPrice": {
+      "title": "Maximum price",
+      "type": "number",
+      "description": "Optional maximum price filter.",
+      "editor": "number"
+    },
+    "condition": {
+      "title": "Condition",
+      "type": "string",
+      "description": "Optional condition hint. Examples: new, used, open box, refurbished.",
+      "editor": "textfield"
+    },
+    "location": {
+      "title": "Location",
+      "type": "string",
+      "description": "Optional item location hint.",
+      "editor": "textfield"
+    },
+    "deduplicateResults": {
+      "title": "Deduplicate results",
+      "type": "boolean",
+      "description": "Remove duplicate product URLs/item IDs.",
+      "default": true
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "description": "Optional Apify proxy configuration. Useful for reliable public eBay requests.",
+      "editor": "proxy",
+      "default": {
+        "useApifyProxy": true
+      }
+    },
+    "debugMode": {
+      "title": "Debug mode",
+      "type": "boolean",
+      "description": "Save extra request/debug information to the key-value store.",
+      "default": false
+    }
+  }
+}
