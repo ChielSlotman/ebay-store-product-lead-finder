@@ -20,7 +20,7 @@
       "title": "eBay search or category URLs",
       "type": "array",
       "description": "Optional direct public eBay search/category URLs.",
-      "editor": "requestListSources",
+      "editor": "stringList",
       "prefill": [],
       "items": {
         "type": "string"
